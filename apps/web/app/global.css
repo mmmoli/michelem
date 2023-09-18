@@ -20,9 +20,9 @@
       --border: var(--foreground);
       --input: var(--primary);
   
-      --primary: 242, 97%, 46%;
-      --muted-primary: 239, 82%, 58%;
-      --primary-foreground: 0 0% 100%;
+      --primary: 120, 100%, 45%;
+      --muted-primary: 120, 100%, 75%
+      --primary-foreground: 0 0% 0%;
   
       --accent: 267, 46%, 74%;
       --accent-foreground: 240 5.9% 10%;
@@ -34,7 +34,7 @@
   
       --radius: 0%;
   
-      --font-sans: Unbounded;
+      --font-sans: Impact;
     }
   
     .dark {

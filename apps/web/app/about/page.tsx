@@ -4,9 +4,7 @@ export default async function AboutPage() {
   return (
     <div>
       <h1>About</h1>
-      <Button size="lg" variant="outline">
-        Click me
-      </Button>
+      <Button size="lg">Click me</Button>
     </div>
   );
 }
