@@ -3,7 +3,10 @@ import { Button } from '@michelem/ui';
 export default async function AboutPage() {
   return (
     <div>
-      <h1 className="scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-7xl font-heading">
+      <h1
+        className="scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-7xl font-heading"
+        data-testid="heading"
+      >
         About Michele M. Rubik
       </h1>
 

@@ -5,10 +5,12 @@ import { NavbarItem } from './navbar-item';
 export const Navbar: FC = () => {
   const { navItems } = useNavConfig();
   return (
-    <ul className="flex">
-      {navItems.map((item) => (
-        <NavbarItem item={item} key={item.path} />
-      ))}
-    </ul>
+    <nav data-testid="navbar">
+      <ul className="flex">
+        {navItems.map((item) => (
+          <NavbarItem item={item} key={item.path} />
+        ))}
+      </ul>
+    </nav>
   );
 };
