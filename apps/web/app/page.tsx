@@ -1,3 +1,9 @@
+import { MainMessage } from './_components/';
+
 export default async function Index() {
-  return <div>michelem</div>;
+  return (
+    <div>
+      <MainMessage />
+    </div>
+  );
 }
