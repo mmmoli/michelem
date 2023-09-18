@@ -1,3 +1,4 @@
+import { Navbar } from './_components';
 import { useFonts } from './_global-hooks';
 import './global.css';
 
@@ -14,7 +15,10 @@ export default function RootLayout({
   const { className } = useFonts();
   return (
     <html lang="en">
-      <body className={className}>{children}</body>
+      <body className={className}>
+        <Navbar />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
