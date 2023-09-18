@@ -4,5 +4,5 @@ repos:
       - id: commitizen-branch
         stages:
           - push
-    repo: https://github.com/commitizen-tools/commitizen
+    repo: https://github.com/cocz commitizen-tools/commitizen
     rev: v3.9.0
